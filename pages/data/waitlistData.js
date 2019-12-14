@@ -7,4 +7,4 @@ var waitlistArr = [
     }
 ]
 
-module.exports(waitlistArr);
+module.exports = waitlistArr;
