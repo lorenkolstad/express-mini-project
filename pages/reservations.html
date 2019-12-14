@@ -13,8 +13,8 @@
     <div class="jumbotron">
             <h1 class="display-4 col-sm-12">Hot Restaurant</h1>
             <p class="lead">Make your reservation.</p>
-            <a class="btn btn-primary btn-lg go-home" href="./home.html" role="button">Home</a>
-            <a class="btn btn-primary btn-lg view-tables" href="./tables.html" role="button">View Tables</a>
+            <a class="btn btn-primary btn-lg" id="go-home" href="./home.html" role="button">Home</a>
+            <a class="btn btn-primary btn-lg" id="view-tables" href="./tables.html" role="button">View Tables</a>
     </div>
 
     <form>
@@ -35,8 +35,8 @@
                 <label for="formGroupExampleInput2">Unique ID</label>
                 <input type="text" class="form-control" id="id" placeholder="Please enter a unique ID.">
         </div>
-        <div class="submit-button">
-            <button type="button" class="btn btn-primary">Submit</button>
+        <div class="reserve-table">
+            <button type="button" class="btn btn-primary" id="submit-reservation">Submit</button>
         </div>
     </form>
 

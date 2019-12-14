@@ -1,4 +1,4 @@
-var waitlistArr = [
+let waitlistArr = [
     {
         partyName: "Sands",
         partyEmail: "sandofabeach@email.com",
